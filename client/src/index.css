@@ -1,0 +1,125 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.itemsHome {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.itemCard {
+  width: 30%;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.logout:hover {
+  color: #E30003 !important;
+  cursor: pointer;
+}
+
+.buttonsNav {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.alignButtonsnav {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.carousel-caption {
+  color: black !important;
+  font-weight: bolder !important;
+  background-color: rgba(120, 120, 120, 0.8);
+}
+
+.carousel img {
+  height: 450px;
+}
+
+.workCard {
+  background-color: #343A40;
+  color: white;
+  width: 20%;
+  text-align: center;
+  margin: 15px;
+}
+
+.mynavbar a {
+  color: grey !important;
+  text-decoration: none !important;
+  font-weight: bolder;
+}
+
+.ourWork {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mynavbar a:hover {
+  color: #E30003 !important;
+  text-decoration: none !important;
+}
+
+.myFooter {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  background-color: #343A40;
+  padding: 30px;
+}
+
+.subfoot {
+  text-align: center;
+  color: white;
+  background-color: #4f5153;
+  margin-bottom: 0;
+  height: 30px;
+}
+
+
+
+#lostcart {
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .itemCard {
+    width: 45%;
+  }
+
+  .itemCard img {
+    width: 80%;
+  }
+
+  .workCard {
+    width: 45%;
+    margin: 2px;
+  }
+
+  .ourWork i {
+    font-size: 80px;
+  }
+
+  .carousel img {
+    height: 300px;
+  }
+
+  .myFooter {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+  }
+  .sectionFooter{
+    width: 50%;
+    text-align: center;
+  }
+
+}
